@@ -1,0 +1,1 @@
+ streamlit run /Users/anshinfotech/Desktop/customer-churn-prediction-main/app.py
