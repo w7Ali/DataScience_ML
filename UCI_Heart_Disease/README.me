@@ -1,27 +1,7 @@
-## Heart Disease
+![Heart Disease]("https://github.com/w7Ali/DataScience_ML/blob/main/UCI_Heart_Disease/wA_Heart_Disease_Project.gif")
 For this exercise we will be using a subset of the UCI Heart Disease dataset, leveraging the fourteen most commonly used attributes. All identifying information about the patient has been scrubbed. 
 
-The dataset includes 14 columns. The information provided by each column is as follows:
-<ul>
-    <li><b>age:</b> Age in years</li>
-    <li><b>sex:</b> (1 = male; 0 = female)</li>
-    <li><b>cp:</b> Chest pain type (0 = asymptomatic; 1 = atypical angina; 2 = non-anginal pain; 3 = typical angina)</li>
-    <li><b>trestbps:</b> Resting blood pressure (in mm Hg on admission to the hospital)</li>
-    <li><b>cholserum:</b> Cholestoral in mg/dl</li>
-    <li><b>fbs</b> Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)</li>
-    <li><b>restecg:</b> Resting electrocardiographic results (0= showing probable or definite left ventricular hypertrophy by Estes' criteria; 1 = normal; 2 = having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV))</li>
-    <li><b>thalach:</b> Maximum heart rate achieved</li>
-    <li><b>exang:</b> Exercise induced angina (1 = yes; 0 = no)</li>
-    <li><b>oldpeakST:</b> Depression induced by exercise relative to rest</li>
-    <li><b>slope:</b> The slope of the peak exercise ST segment (0 = downsloping; 1 = flat; 2 = upsloping)</li>
-    <li><b>ca:</b> Number of major vessels (0-3) colored by flourosopy</li>
-    <li><b>thal:</b> 1 = normal; 2 = fixed defect; 7 = reversable defect</li>
-    <li><b><u>Sick:</u></b> Indicates the presence of Heart disease (True = Disease; False = No disease)</li>
-</ul>
-    
-
-
-
+The dataset includes 14 columns.
 **Homogenity Score** describes the closeness of the clustering algorithm to a perfect cluster, where each cluster has data-points that belong to the same class lable (in this case, 1 or 0, sick or healthy). Basically, we can tell how much sick people we classify as healthy, and how many healthy people we classify as sick. The homogenity score is pretty low which means that we have quite a lot of missclassifications. 
 
 **Completeness Score** describes how well we cluster members of a class in the correct class. This means we evalute whether all members of a true class is classified correctly. We get a very similar result to the homogenity score because it is essentially the same as we only have 2 clases. It's pretty low for the same reason the homogenity score is low. 
