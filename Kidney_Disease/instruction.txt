@@ -1,6 +1,0 @@
-Run the Code:
-   - Open a terminal or command prompt.
-   - Navigate to the directory where the Jupyter notebook and all other files are saved.
-   - Execute the following command to start the Streamlit app:
-       pip install -r requirements.txt
-       streamlit run app.py
